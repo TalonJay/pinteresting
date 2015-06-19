@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use SCSS for stylesheets
@@ -18,6 +18,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # Gem including Bootstrap materials
 gem 'bootstrap-sass'
+# Gem including Devise account creation/storage
+gem 'devise', '~> 3.5.1'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
