@@ -22,6 +22,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 # Gem including Devise account creation/storage
 gem 'devise', '~> 3.5.1'
+# Gem including Paperclip image management
+gem 'paperclip', github: 'thoughtbot/paperclip'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
