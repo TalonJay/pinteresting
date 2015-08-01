@@ -24,6 +24,8 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.1'
 # Gem including Paperclip image management
 gem 'paperclip', github: 'thoughtbot/paperclip'
+# Gem including Amazon sdk access
+gem 'aws-sdk', '< 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
